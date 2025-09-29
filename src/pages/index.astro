@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Logo from "../SCWT-logo_v1.svg";
+import Logo from "../assets/images/SCWT-logo_v1.svg";
 ---
 
 <BaseLayout>
@@ -14,7 +14,10 @@ import Logo from "../SCWT-logo_v1.svg";
       Your browser does not support the video tag.
     </video>
     <div class="absolute inset-0 flex items-center justify-center">
-      <h1 class="text-white text-5xl md:text-8xl font-bold text-center">
+      <h1
+        class="text-white text-center max-w-lg md:max-w-6xl xl:max-w-7xl"
+        style="font-size: clamp(2rem, 6vw, 10rem); line-height: 1.1;"
+      >
         Uncover Hidden Stories of Santa Cruz
       </h1>
     </div>
