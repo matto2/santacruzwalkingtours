@@ -5,5 +5,19 @@ import Logo from "../SCWT-logo_v1.svg";
 
 <BaseLayout>
   <Logo class="w-full h-auto block" />
+  <div
+    class="mt-2 relative -mx-4"
+    style="width: 100vw; margin-left: calc(-50vw + 50%);"
+  >
+    <video class="w-full" autoplay muted loop>
+      <source src="/output.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <h1 class="text-white text-5xl md:text-8xl font-bold text-center">
+        Uncover Hidden Stories of Santa Cruz
+      </h1>
+    </div>
+  </div>
   <h1 class="text-center text-red-500">Coming soon!!!</h1>
 </BaseLayout>
