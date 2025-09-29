@@ -4,7 +4,19 @@ import Logo from "../assets/images/SCWT-logo_v1.svg";
 ---
 
 <BaseLayout>
-  <Logo class="w-full h-auto block" />
+  <a
+    href="/"
+    class="inline-block w-full hover:opacity-80 transition-opacity duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
+    aria-label="Santa Cruz Walking Tours - Return to homepage"
+    title="Santa Cruz Walking Tours"
+  >
+    <Logo
+      class="w-full h-auto block"
+      aria-hidden="true"
+      role="img"
+    />
+    <span class="sr-only">Santa Cruz Walking Tours</span>
+  </a>
   <div
     class="mt-2 relative -mx-4"
     style="width: 100vw; margin-left: calc(-50vw + 50%);"
