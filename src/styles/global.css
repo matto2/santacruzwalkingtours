@@ -110,6 +110,23 @@ pre code {
   color: inherit;
 }
 
+/* Reusable hero font sizing used for the video overlay */
+.hero-font-size {
+  font-size: clamp(1rem, 7vw, 10rem);
+  line-height: 1.1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Larger, responsive overlay hero text (white, no card) */
+.overlay-hero {
+  font-size: clamp(2rem, 9vw, 12rem);
+  line-height: 1.02;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.75);
+  margin: 0;
+}
+
 /* Prose container for content areas */
 .prose {
   max-width: 65ch;
